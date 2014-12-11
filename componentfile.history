@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<History> 
+  <File usedCount="2" path="freertosconfig.h"/>  
+  <File usedCount="2" path="cmsis_lib/source/stm32f4xx_i2c.c"/>
+</History>

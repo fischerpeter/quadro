@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=quadro.map -O0 --gc-sections -lm -lgcc -lc -LE:\Programme\CoIDE\configuration\ProgramData\quadro -TE:\Programme\CoIDE\configuration\ProgramData\quadro/arm-gcc-link.ld -g">
+      <target file="quadro.elf" lastModified="14a0c787a4a">
+         <source file="..\obj\i2c.o" lastModified="14a0c2b9344"/>
+         <source file="..\obj\LSM303DLHC.o" lastModified="14a0c2b93a5"/>
+         <source file="..\obj\SendMetric.o" lastModified="14a0c2b93f4"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14a0c2b945a"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="14a0c2b94a4"/>
+         <source file="..\obj\led.o" lastModified="14a0c2b94ed"/>
+         <source file="..\obj\minimu9v2.o" lastModified="14a0c2b9540"/>
+         <source file="..\obj\L3GD20.o" lastModified="14a0c2b95a2"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="14a0c2b95f8"/>
+         <source file="..\obj\common.o" lastModified="14a0c2b9626"/>
+         <source file="..\obj\uart_et.o" lastModified="14a0c2b9679"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14a0c2b96aa"/>
+         <source file="..\obj\main.o" lastModified="14a0c2b96ef"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14a0c2b9760"/>
+         <source file="..\obj\printf.o" lastModified="14a0c2b97b8"/>
+         <source file="..\obj\dac.o" lastModified="14a0c2b97fa"/>
+         <source file="..\obj\tasks.o" lastModified="14a0c2b987a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14a0c2b98cb"/>
+         <source file="..\obj\list.o" lastModified="14a0c2b9909"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14a0c2b994d"/>
+         <source file="..\obj\syscalls.o" lastModified="14a0c2b998e"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14a0c2b99e8"/>
+         <source file="..\obj\PID.o" lastModified="14a0c2b9a3a"/>
+         <source file="..\obj\regler.o" lastModified="14a0c7875e4"/>
+         <source file="..\obj\queue.o" lastModified="14a0c2b9b5d"/>
+         <source file="..\obj\port.o" lastModified="14a0c2b9b94"/>
+         <source file="..\obj\croutine.o" lastModified="14a0c2b9bd4"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="14a0c2b9c3b"/>
+         <source file="..\obj\misc.o" lastModified="14a0c2b9c7e"/>
+         <source file="..\obj\calculations.o" lastModified="14a0c2b9ccd"/>
+         <source file="..\obj\heap_2.o" lastModified="14a0c2b9d0c"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="14a0c2b9dc8"/>
+         <source file="..\obj\PWM.o" lastModified="14a0c2b9e14"/>
+      </target>
+   </processor>
+</history>

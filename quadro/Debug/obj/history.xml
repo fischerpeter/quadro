@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F407ZG -DSTM32F4XX -I..\..\..\workspace\quadro\FRT_Library\FreeRTOS\Source -I..\..\..\workspace\quadro\hardware -I..\..\..\workspace\quadro\regler -I..\..\..\workspace\quadro\cmsis_boot -I..\..\..\workspace\quadro\peripherals -I..\..\..\workspace\quadro\FRT_Library\FreeRTOS\Source\portable\GCC\ARM_CM3 -I..\..\..\workspace\quadro\cmsis_lib -I..\..\..\workspace\quadro\FRT_Library\FreeRTOS\Source\portable -I..\..\.. -I..\..\..\workspace\quadro\cmsis -I..\..\..\workspace\quadro\FRT_Library\FreeRTOS\Source\portable\GCC -I..\..\..\workspace\quadro\cmsis_lib\include -I..\..\..\workspace\quadro\FRT_Library\FreeRTOS -I..\..\..\workspace\quadro\FRT_Library\FreeRTOS\Source\include -I..\..\..\workspace\quadro -I..\..\..\workspace -I..\..\..\workspace\quadro\functions">
+      <target file="regler.o" lastModified="14a0c7875e4">
+         <source file="..\..\..\regler\regler.c" lastModified="14a0c7865a4"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14a0c2b98cb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="149757e5a66"/>
+      </target>
+      <target file="common.o" lastModified="14a0c2b9626">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\portable\GCC\ARM_CM3\common.c" lastModified="149762ff8a8"/>
+      </target>
+      <target file="SendMetric.o" lastModified="14a0c2b93f4">
+         <source file="..\..\..\functions\SendMetric.c" lastModified="149c4a7883c"/>
+      </target>
+      <target file="tasks.o" lastModified="14a0c2b987a">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\tasks.c" lastModified="149762ff8b4"/>
+      </target>
+      <target file="PID.o" lastModified="14a0c2b9a3a">
+         <source file="..\..\..\regler\PID.c" lastModified="14a07c411ed"/>
+      </target>
+      <target file="LSM303DLHC.o" lastModified="14a0c2b93a5">
+         <source file="..\..\..\hardware\LSM303DLHC.c" lastModified="149b98d0700"/>
+      </target>
+      <target file="dac.o" lastModified="14a0c2b97fa">
+         <source file="..\..\..\peripherals\dac.c" lastModified="14975c10515"/>
+      </target>
+      <target file="PWM.o" lastModified="14a0c2b9e14">
+         <source file="..\..\..\peripherals\PWM.c" lastModified="14a0c1eba86"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14a0c2b96aa">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1497ce7128e"/>
+      </target>
+      <target file="uart_et.o" lastModified="14a0c2b9679">
+         <source file="..\..\..\peripherals\uart_et.c" lastModified="149e3bac6a6"/>
+      </target>
+      <target file="croutine.o" lastModified="14a0c2b9bd4">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\croutine.c" lastModified="149762ff8a0"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="14a0c2b9dc8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="149757e73bb"/>
+      </target>
+      <target file="i2c.o" lastModified="14a0c2b9344">
+         <source file="..\..\..\peripherals\i2c.c" lastModified="1499bf29443"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14a0c2b994d">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="149767440ba"/>
+      </target>
+      <target file="printf.o" lastModified="14a0c2b97b8">
+         <source file="..\..\..\stdio\printf.c" lastModified="1498b498a9b"/>
+      </target>
+      <target file="led.o" lastModified="14a0c2b94ed">
+         <source file="..\..\..\peripherals\led.c" lastModified="149b91a4a4e"/>
+      </target>
+      <target file="misc.o" lastModified="14a0c2b9c7e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="149757e9516"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14a0c2b99e8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14975816791"/>
+      </target>
+      <target file="calculations.o" lastModified="14a0c2b9ccd">
+         <source file="..\..\..\functions\calculations.c" lastModified="149956b41db"/>
+      </target>
+      <target file="heap_2.o" lastModified="14a0c2b9d0c">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\portable\MemMang\heap_2.c" lastModified="149762ff8aa"/>
+      </target>
+      <target file="L3GD20.o" lastModified="14a0c2b95a2">
+         <source file="..\..\..\hardware\L3GD20.c" lastModified="149e3cd7392"/>
+      </target>
+      <target file="queue.o" lastModified="14a0c2b9b5d">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\queue.c" lastModified="149762ff8ab"/>
+      </target>
+      <target file="list.o" lastModified="14a0c2b9909">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\list.c" lastModified="149762ff8a7"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14a0c2b9760">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="149757e5082"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="14a0c2b94a4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="1498b49603c"/>
+      </target>
+      <target file="port.o" lastModified="14a0c2b9b94">
+         <source file="..\..\..\FRT_Library\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c" lastModified="149762ff8a9"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14a0c2b95f8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="14975817849"/>
+      </target>
+      <target file="syscalls.o" lastModified="14a0c2b998e">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14975c50faf"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14a0c2b9c3b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14993fcffdf"/>
+      </target>
+      <target file="minimu9v2.o" lastModified="14a0c2b9540">
+         <source file="..\..\..\hardware\minimu9v2.c" lastModified="14a07cbea44"/>
+      </target>
+      <target file="main.o" lastModified="14a0c2b96ef">
+         <source file="..\..\..\main.c" lastModified="14a07c6c829"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14a0c2b945a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="149757e8229"/>
+      </target>
+   </processor>
+</history>
